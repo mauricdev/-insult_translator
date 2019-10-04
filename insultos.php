@@ -20,6 +20,22 @@ $respuesta = "motherfucker";
     $respuesta = "No detectado";
 }
 
+// SERIA MEJOR HACER ESTO CON UN ARRAY DE 2D :)
+
+if(mb_strtolower($insulto) == "maraco" || mb_strtolower($insulto) == "maricon" ||
+mb_strtolower($insulto) == "fleto" || mb_strtolower($insulto) == "marica"){
+  $respuesta = "faggot";
+  }else{
+      $respuesta = "No detectado";
+  }
+if(mb_strtolower($insulto) == "aweonao" || mb_strtolower($insulto) == "weon" 
+|| mb_strtolower($insulto) == "wn"){
+  $respuesta = "dickhead";
+}else{
+  $respuesta = "No detectado";
+}
+
+
 
 ?>
 <div class="row">
