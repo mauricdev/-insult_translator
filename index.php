@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-  
+<!-- comentario :v -->  
 <form action="insultos.php"  method="post">
 Insulto: <input type="text" name="insulto" value="CTM"><br>
 <input type="submit" value="Submit">
