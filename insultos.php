@@ -12,7 +12,17 @@
   <body>
       
   <?php
+  
 $insulto = $_POST['insulto'];
+
+$consulta_mysql="select *
+                from insultos
+                where Actividad = $insulto ";
+$resultado_consulta_mysql=mysql_query($consulta_mysql,$conexion);
+$registro=mysql_fetch_array($resultado_consulta_mysql) ;
+
+echo $registro;
+
 
 if($insulto == "CTM"){
 $respuesta = "motherfucker";
